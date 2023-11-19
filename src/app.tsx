@@ -2,6 +2,12 @@ import $ from "jquery";
 import createBookListItem from "./createBookListItem";
 import createBookReview from "./createBookReview";
 import type { Book } from "./types";
+import React from "react";
+import { createRoot } from "react-dom/client";
+
+const domNode = document.getElementById("react-root") as HTMLElement;
+const root = createRoot(domNode);
+root.render(<h1>Reactで描写する</h1>);
 
 $(function () {
   $.ajax("http://localhost:1323/books").done(function (books: Book[]) {
