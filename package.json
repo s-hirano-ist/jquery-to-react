@@ -6,7 +6,8 @@
   "author": "s-hirano-ist <solucky0725@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "lint:ts": "tsc --noEmit"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
