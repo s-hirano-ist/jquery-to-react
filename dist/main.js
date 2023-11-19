@@ -38,7 +38,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ createBookReview)\n/* harmony export */ });\nfunction createBookReview(review) {\n  return '<li class=\"review__list__item\">' + '<p class=\"review__list__item__name\">' + review.username + \"さんの感想・評価</p>\" + '<p class=\"review__list__item__comment\">' + review.comment + \"</p>\" + '<p class=\"review__list__item__like\">' + '<a href=\"#\" class=\"review__list__item__like__button js-like\">' + '&#x2764; <span class=\"js-like-count\">' + review.like + \"</span>件\" + \"</a>\" + \"</p>\" + \"</li>\";\n}\n\n//# sourceURL=webpack://shuwa-frontend-book-app/./src/createBookReview.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ createBookReview)\n/* harmony export */ });\nfunction createBookReview(review) {\n  return '<li class=\"review__list__item\">' + '<p class=\"review__list__item__name\">' + review.username + \"さんの感想・評価</p>\" + '<p class=\"review__list__item__comment\">' + review.comment + \"</p>\" + '<p class=\"review__list__item__like\">' + '<a href=\"#\" class=\"review__list__item__like__button js-like\">' + '<span class=\"js-like-count\">' + review.like + \"</span>件\" + \"</a>\" + \"</p>\" + \"</li>\";\n}\n\n//# sourceURL=webpack://shuwa-frontend-book-app/./src/createBookReview.ts?");
 
 /***/ }),
 

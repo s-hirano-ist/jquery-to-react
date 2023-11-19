@@ -11,7 +11,7 @@ export default function createBookReview(review: Review) {
     "</p>" +
     '<p class="review__list__item__like">' +
     '<a href="#" class="review__list__item__like__button js-like">' +
-    '&#x2764; <span class="js-like-count">' +
+    '<span class="js-like-count">' +
     review.like +
     "</span>件" +
     "</a>" +
