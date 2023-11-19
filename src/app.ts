@@ -1,4 +1,5 @@
 import $ from "jquery";
+import { Book, Review } from "./types";
 
 $(function () {
   $.ajax("http://localhost:1323/books").done(function (books) {
@@ -38,7 +39,7 @@ $(function () {
   });
 });
 
-function appendBook(book) {
+function appendBook(book: Book) {
   $("#js-book-list").append(
     $(
       '<li class="book-list__item">' +
@@ -88,7 +89,7 @@ function appendBook(book) {
   );
 }
 
-function createBookReview(review) {
+function createBookReview(review: Review) {
   return (
     '<li class="review__list__item">' +
     '<p class="review__list__item__name">' +
